@@ -19,16 +19,6 @@ This API fetches the latest YouTube videos based on a specified date (`published
 6. **Run the Application:**
     flask run
 
-### Optional Parameters
-You can use the following optional parameters to customize your search:
-- `query`: Specify the search query. Default is 'cricket'.
-- `per_page`: Number of videos per page. Default is 9.
-- `no_of_pages`: Number of pages to fetch. Default is 5.
-
-Example API containing all optional parameters:
-http://127.0.0.1:5000/?query=animal&per_page=10&no_of_pages=6
-
-
 ### Usage
 - Access the application at [http://localhost:5000](http://localhost:5000) in your web browser.
 - Use the search bar to search for YouTube videos.
